@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+}
+
+.top-section {
+    padding: 10px 30px;
+    background-image: url('../assets//bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* filter: brightness(40%); */
+}
+
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.top-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-ent-cont {
+    padding-top: 140px
+}
+
+.top-ent-cont h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 53px;
+}
+
+.top-ent-cont h2 {
+    text-align: center;
+    color: #fff;
+
+}
+
+.top-ent-cont span {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.email-gstart {
+    margin-top: 20px;
+    display: flex;
+}
+
+.email-gstart input {
+    height: 60px;
+    width: 450px;
+}
+
+.email-gstart button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    width: 200px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.our-story {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.our-story-card {
+    padding: 100px;
+
+}
+
+.cont-h1 {
+    color: #fff;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+.cont-h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: #fff;
+}
+.faq{
+    background-color: black;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.faq-card-button{
+    padding-top: 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.option-button{
+    display: flex;
+    justify-content: space-between;
+    color: #737373;
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    padding: 20px;
+    border: none;
+    font-size: 30px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.ready-to{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.faq-card-button span{
+    text-align: center;
+    color: #737373;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 30px;
+
+}
+
+
+
+.footer a, h3{
+    color: #737373;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+}
+.foote-links ul{
+    list-style-type: none;
+}
+.foote-links ul li{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #737373;
+    font-weight: 20px;
+}
